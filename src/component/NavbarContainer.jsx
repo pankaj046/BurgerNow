@@ -14,6 +14,8 @@ import FooterContainer from './FooterContainer';
 const NavbarContainer = () => {
   return (
     <>
+    <Container className="container-full-height">
+      <Row>
       <Navbar expand="lg" className="bg-body-tertiary nav">
       <Container>
       <Navbar.Brand href="/" className="brandLogo">B</Navbar.Brand>
@@ -37,10 +39,12 @@ const NavbarContainer = () => {
         </Navbar.Collapse>
       </Container>
       </Navbar>
-      <Container className="centerContainer">
-      <Row>
+      </Row>
+
+      <Row className="centerContainer">
         <Outlet />
       </Row>
+
       <Row>
         <Col className="footerContainer">
           <FooterContainer />

@@ -9,7 +9,7 @@ import './style/Home.css'
 const Home = () => {
     return (
         <Container>
-            <Row className="middle">
+            <Row>
                 <Col xs={12} md={6} className="d-none d-md-flex justify-content-center align-items-center">
                     <Row>
                         <span className="left-title"> 
