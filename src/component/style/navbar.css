@@ -50,3 +50,7 @@
   height: 40px;
   width: 40px;
 }
+
+.centerContainer{
+  max-height: 70vh;
+}
