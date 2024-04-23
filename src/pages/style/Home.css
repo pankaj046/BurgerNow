@@ -1,4 +1,40 @@
-.left-title{
+.left-title {
     font-size: 30px;
     color: #1F2939;
-}
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .burger-types {
+    margin-top: 2rem;
+  }
+  
+  .burger-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+  }
+  
+  .burger-type {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .burger-price {
+    font-weight: bold;
+    color: #e67e22;
+    margin-left: 0.5rem;
+  }
+
+  .burger-img {
+    margin: 0px;
+    max-height: 180px;
+    width: 180px;
+  }
+  
+  @media (max-width: 767px) {
+    .left-title {
+      font-size: 24px;
+    }
+  }

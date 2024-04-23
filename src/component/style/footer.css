@@ -1,0 +1,18 @@
+.footerContainer {
+  background-color: #f8f9fa;
+  padding: 1rem; 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav .nav-link {
+  margin: 0 1rem;
+}
