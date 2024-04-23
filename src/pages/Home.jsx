@@ -28,7 +28,7 @@ const Home = () => {
             <span className="left-title">Make<br />Your<br />Burger</span>
           </Row>
         </Col>
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} className="max-hed d-flex justify-content-center">
           <Image src={leftBanner} fluid />
         </Col>
       </Row>
@@ -36,7 +36,9 @@ const Home = () => {
         {burgerTypes.map((burger, index) => (
           <Col key={index} xs={12} md={6} lg={3} className="burger-type p-2">
             <Card className="burger-card h-100">
-              <Card.Img variant="top" src={burger.image} className="burger-img" />
+              <div className="img-container">
+                <Card.Img variant="top" src={burger.image} className="burger-img" />
+              </div>
               <Card.Body>
                 <Card.Title>{burger.name}</Card.Title>
                 <Card.Text>
