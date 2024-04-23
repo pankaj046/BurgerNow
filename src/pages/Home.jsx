@@ -2,7 +2,7 @@ import * as React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import leftBanner from '../assets/main-img.svg';
+import leftBanner from '../assets/main-img.png';
 import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
 import './style/Home.css';

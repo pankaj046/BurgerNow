@@ -8,7 +8,7 @@ import './style/footer.css'
 
 const FooterContainer = () => {
   return (
-    <Container className="footer fixed-bottom footerContainer">
+    <Container className="footerContainer">
       <Row>
         <Nav defaultActiveKey="/home" className="flex-row footer-nav">
           <Nav.Link eventKey="disabled" disabled className="nav-link">2024. Burger Now</Nav.Link>
