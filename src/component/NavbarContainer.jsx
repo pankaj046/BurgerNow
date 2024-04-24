@@ -17,27 +17,33 @@ const NavbarContainer = () => {
     <Container className="container-full-height">
       <Row>
       <Navbar expand="lg" className="bg-body-tertiary nav">
-      <Container>
-      <Navbar.Brand href="/" className="brandLogo">B</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="/" className="nav-link active">Discover</Nav.Link>
-            <Nav.Link href="/make-burger">Make Your Burger</Nav.Link>
-          </Nav>
-          <Nav className="justify-content-end">
-              <Nav.Link href="#home">  
+        <Container>
+          <Navbar.Brand href="/" className="brandLogo">
+            B
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="/" className="nav-link active">
+                Discover
+              </Nav.Link>
+              <Nav.Link href="/make-burger">Make Your Burger</Nav.Link>
+            </Nav>
+            <Nav className="justify-content-end">
+              <Nav.Link href="#home">
                 <span className="callText navCall">
-                  <FaPhone className="callIcon flipped"/> Call Me Back
+                  <FaPhone className="callIcon flipped" /> Call Me Back
                 </span>
               </Nav.Link>
-            <Nav.Link href="/order">Order</Nav.Link>
-            <Nav.Link href="/profile" className="nav-avator">
+              <Nav.Link href="/order">Order</Nav.Link>
+              <Nav.Link href="/profile" className="nav-avator">
+                <div className="avatar-container">
                   <WiAlien className="avator" />
-              </Nav.Link>     
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
+                </div>
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
       </Navbar>
       </Row>
 

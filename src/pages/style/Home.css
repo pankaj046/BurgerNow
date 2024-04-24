@@ -7,12 +7,13 @@
   
   .burger-types {
     margin-top: 2rem;
+    font-size: 10px;
   }
   
   .burger-card {
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1); */
     height: 100%;
   }
   
@@ -61,3 +62,21 @@
     object-fit: contain;
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
   }
+
+  /* .nav-avator {
+    display: flex;
+    align-items: center;
+  }
+
+  .avator{
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; 
+    height: 40px; 
+  } */

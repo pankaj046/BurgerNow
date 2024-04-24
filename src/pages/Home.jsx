@@ -33,6 +33,9 @@ const Home = () => {
         </Col>
       </Row>
       <Row className="burger-types justify-content-center mt-50">
+        <h1 center>
+        Hot Items
+        </h1>
         {burgerTypes.map((burger, index) => (
           <Col key={index} xs={12} md={6} lg={3} className="burger-type p-2">
             <Card className="burger-card h-100">
