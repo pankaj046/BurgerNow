@@ -19,3 +19,9 @@
 .navbar-toggler-icon {
   color: #ECA400 !important; 
 }
+
+.outlet-container {
+  min-height: 50vh; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+}

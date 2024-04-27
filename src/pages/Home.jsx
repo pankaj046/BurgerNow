@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useEffect, useState } from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -8,7 +8,7 @@ import './style/Home.css';
 
 const Home = () => {
   return (
-    <Container className="homeRoot">
+    <Container className="homeRoot w-80">
       <Row>
         <Col xs={12} md={6} className="d-flex justify-content-center align-items-center flex-column">
           <Row>

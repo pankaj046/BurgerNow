@@ -1,22 +1,30 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/footer.css'
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 
 const FooterContainer = () => {
   return (
-    <Container className="footerContainer">
-      <Row>
-        <Nav defaultActiveKey="/home" className="flex-row footer-nav">
-          <Nav.Link eventKey="disabled" disabled className="nav-link">2024. Burger Now</Nav.Link>
-          <Nav.Link eventKey="link-1" className="nav-link">Privacy Policy</Nav.Link>
-          <Nav.Link eventKey="link-2" className="nav-link">Terms & Conditions</Nav.Link>
-        </Nav>
-      </Row>
-    </Container>
+    <Navbar className="bg-body-tertiary nav" sticky="bottom">
+       <Container>
+        <Row>
+          <Col xs={12} md={6} className="d-flex justify-content-center align-items-center flex-column">
+            <Row>
+               <p className="text-center mt-4 mb-4">Burger Now</p>
+            </Row>
+          </Col>
+          <Col xs={12} md={6} className="max-hed d-flex justify-content-center">
+           
+          </Col>
+        </Row>
+      </Container>
+    
+    </Navbar>
   );
 };
 
