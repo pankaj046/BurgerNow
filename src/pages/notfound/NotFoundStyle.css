@@ -1,0 +1,10 @@
+
+.color-text-notfound{
+  color: white;
+}
+
+.botton-notfound{
+  background-color: #F14A41 !important;
+  border-color: #F14A41 !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}

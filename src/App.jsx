@@ -3,6 +3,8 @@ import HomePage from './pages/home/HomePage'
 import CartPage from './pages/cart/CartPage'
 import MenuPage from './pages/menu/MenuPage'
 import ProfilePage from './pages/profile/ProfilePage'
+import NotFoundPage from './pages/notfound/NotFoundPage'
+
 import Navbar from './component/navbar/NavbarContainer'
 
 import {
@@ -31,6 +33,10 @@ const router = createBrowserRouter([
                 path: "/menu",
                 element: <MenuPage />,
             },
+            {
+                path: "*",
+                element: <NotFoundPage />,
+            }
         ]
     },
 ]);
