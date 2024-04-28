@@ -6,10 +6,10 @@ import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './style/navbar.css';
+import './navbar.css';
 import { Outlet } from 'react-router-dom';
-import FooterContainer from './FooterContainer';
-import icon from '../assets/icon.svg';
+import FooterContainer from '../footer/FooterContainer';
+import icon from '../../assets/icon.svg'
 import Image from 'react-bootstrap/Image';
 
 const NavbarContainer = () => {

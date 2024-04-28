@@ -3,7 +3,7 @@ import HomePage from './pages/home/HomePage'
 import CartPage from './pages/cart/CartPage'
 import MenuPage from './pages/menu/MenuPage'
 import ProfilePage from './pages/profile/ProfilePage'
-import Navbar from './component/NavbarContainer'
+import Navbar from './component/navbar/NavbarContainer'
 
 import {
   createBrowserRouter,
