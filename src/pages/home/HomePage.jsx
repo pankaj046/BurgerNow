@@ -6,9 +6,7 @@ import Button from 'react-bootstrap/Button';
 import './HomeStyle.css'
 import burger from '../../assets/burger_home.svg'
 import info_burger from '../../assets/info_burger.svg'
-import one from '../../assets/1.png'
-import two from '../../assets/2.png'
-import three from '../../assets/3.png'
+import Form from 'react-bootstrap/Form';
 
 import delivery from '../../assets/delivery.svg'
 
@@ -83,36 +81,27 @@ const HomePage = () => {
             </Row>
           </Container>
         </Col>
-        <Col xs={12} md={6} className="text-center">
-        <p className="mt-2 home-contact-title">Restaurants</p>
+
+        <Col xs={12} md={6} className="d-flex flex-column">
+        <p className="mt-2 home-contact-title text-center ">Contact Us</p>
       
-        <Card className="d-flex flex-row res-card">
-        <Card.Img variant="top" src={one} className="res-car-img" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </Card.Text>
-        </Card.Body>
-        </Card>
-        <Card className="d-flex flex-row res-card">
-        <Card.Img variant="top" src={two} className="res-car-img" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </Card.Text>
-        </Card.Body>
-        </Card>
-        <Card className="d-flex flex-row res-card">
-        <Card.Img variant="top" src={three} className="res-car-img" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </Card.Text>
-        </Card.Body>
-        </Card>
+          <Form className="form-contact">
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Full name</Form.Label>
+              <Form.Control type="text" placeholder="full name" />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control type="email" placeholder="name@example.com" />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+              <Form.Label>Query</Form.Label>
+              <Form.Control as="textarea" rows={3} />
+            </Form.Group>
+            <Button className="btn-info">Submit</Button>
+
+          </Form>
+
         </Col>
       </Row>
     </Container>

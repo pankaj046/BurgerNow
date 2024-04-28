@@ -123,23 +123,10 @@
   line-height: 20px; 
 }
 
-.res-card {
-  height: 140px !important;
-  margin-left: 100px;
-  margin-right: 100px;
-  text-align: left;
-  background-color: #2F2D2E !important;
-  color: white !important;
-  margin-bottom: 20px !important;
-
-
-}
-/* .res-card .card-subtitle{
-  color: white !important;
-} */
-
-.res-car-img {
-  width: 200px !important;
+.form-contact{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
 }
 
 
