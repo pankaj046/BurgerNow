@@ -15,9 +15,79 @@
 
 .rotated-img {
   transform: rotate(10deg);
+  margin-top: 50px;
 }
 .botton-home{
   background-color: #F14A41 !important;
   border-color: #F14A41 !important;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 40px !important; 
 }
+
+.homeMenu{
+  padding: 20px;
+  background-color: white;
+}
+
+.homeInfo{
+  padding: 20px;
+  background-color: #F14A41;
+}
+
+.home-info-first{
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.home-info-second{
+  color: #ECA400;
+  font-size: 40px;
+  font-weight: 800;
+  text-shadow: 2px 0 white, -2px 0 white, 0 2px white, 0 -2px white, 1px 1px white, -1px -1px white, -1px 1px white, 1px -1px white;
+}
+
+.btn-info{
+  background-color: #0f960f !important;
+  border-color: #0f960f !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 40px !important; 
+  color: white !important;
+}
+.home-menu-row{
+  padding: 10px !important;
+}
+
+.burger-container {
+  color: white;
+  font-size: 10px;
+
+}
+.home-menu-title{
+  color: #2F2D2E;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.info-menu {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.burger-icon {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  transform: translate(-50%, 20%);
+}
+
+.info-menu{
+  border-radius: 20px !important; 
+  background-color: #2F2D2E !important;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
