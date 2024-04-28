@@ -16,9 +16,9 @@ const NavbarContainer = () => {
   const location = useLocation();
 
   return (
-    <Container fluid className="container-full-height root-nav">
+    <Container fluid className="root-nav">
       <Row className="nav-row">
-        <Navbar expand="lg" className="bg-body-tertiary nav" fixed="top">
+        <Navbar expand="lg" className="bg-body-tertiary nav" sticky="top">
           <Container>
             <Navbar.Brand href="/"><Image src={icon} /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -34,11 +34,11 @@ const NavbarContainer = () => {
         </Navbar>
       </Row>
 
-      <Row className="mt-5 outlet-container">
+      <Row className="outlet-container">
         <Outlet />
       </Row>
 
-      <Row className="" sticky="bottom">
+      <Row className="footer-container" fixed="bottom">
         <FooterContainer />
       </Row>
     </Container>

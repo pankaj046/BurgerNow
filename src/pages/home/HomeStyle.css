@@ -1,5 +1,23 @@
 .homeRoot{
-  background-image: none;
-  max-height: 70vh !important; 
-  /* height: 80vh !important; */
+  min-height: 90vh !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='681' height='261' viewBox='0 0 681 261'%3E%3Cpath d='M317.5 61.9467C177.397 131.947 65.8817 170.78 0 126.447V260.947C0 260.947 382 151.447 488 178.947C594 206.447 681 260.947 681 260.947V92.9466C455.5 -43.5533 457.603 -8.05332 317.5 61.9467Z' fill='%23ECA400'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  margin: 0 auto;
+}
+
+.home-heading{
+  color: white;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.rotated-img {
+  transform: rotate(10deg);
+}
+.botton-home{
+  background-color: #F14A41 !important;
+  border-color: #F14A41 !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }

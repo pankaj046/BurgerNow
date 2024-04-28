@@ -5,23 +5,32 @@
 .nav{
   background-color: #2F2D2E !important; 
   font-size: small;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .nav-link.active {
   color: #ECA400 !important; 
+  /* border-bottom: 1px solid #ECA400; 
+  display: inline-block; */
+
 }
 
 .nav-link {
   color: white;
 }
 
+.navbar-toggler{
+  border-color: #ECA400 !important;
+}
+.navbar-toggle.button{
+  border-color: #ECA400 !important;
+
+}
 .navbar-toggler-icon {
   color: #ECA400 !important; 
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='yellow' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.outlet-container {
-  /* min-height: 80vh !important;  */
-  display: flex;
-  align-items: center;
+.footer-container{
+  background-color: aliceblue;
 }
