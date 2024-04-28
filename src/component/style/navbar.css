@@ -21,7 +21,7 @@
 }
 
 .outlet-container {
-  min-height: 50vh; /* Adjust the height as needed */
+  /* min-height: 80vh !important;  */
   display: flex;
   align-items: center;
 }

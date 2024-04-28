@@ -1,9 +1,8 @@
 import * as React from "react";
-import Home from './pages/Home'
-import Order from './pages/Order'
-import MakeYourBurger from './pages/MakeYourBurger'
-
-import Profile from './pages/Profile'
+import HomePage from './pages/home/HomePage'
+import CartPage from './pages/cart/CartPage'
+import MenuPage from './pages/menu/MenuPage'
+import ProfilePage from './pages/profile/ProfilePage'
 import Navbar from './component/NavbarContainer'
 
 import {
@@ -18,19 +17,19 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <Home />,
+                element: <HomePage />,
             },
             {
                 path: "/profile",
-                element: <Profile />,
+                element: <ProfilePage />,
             },
             {
-                path: "/order",
-                element: <Order />,
+                path: "/cart",
+                element: <CartPage />,
             },
             {
-                path: "/make-burger",
-                element: <MakeYourBurger />,
+                path: "/menu",
+                element: <MenuPage />,
             },
         ]
     },

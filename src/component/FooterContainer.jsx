@@ -10,22 +10,18 @@ import Col from 'react-bootstrap/Col';
 
 const FooterContainer = () => {
   return (
-    <Navbar className="bg-body-tertiary nav" sticky="bottom">
-       <Container>
-        <Row>
-          <Col xs={12} md={6} className="d-flex justify-content-center align-items-center flex-column">
-            <Row>
-               <p className="text-center mt-4 mb-4">Burger Now</p>
-            </Row>
-          </Col>
-          <Col xs={12} md={6} className="max-hed d-flex justify-content-center">
-           
-          </Col>
-        </Row>
-      </Container>
-    
-    </Navbar>
-  );
+    <Container>
+      <Row>
+        <Col xs={12} md={6} className="d-flex justify-content-center align-items-center flex-column">
+          <Row>
+            <p className="text-center mt-4 mb-4">Burger Now</p>
+          </Row>
+        </Col>
+        <Col xs={12} md={6} className="max-hed d-flex justify-content-center">
+        
+        </Col>
+      </Row>
+  </Container>);
 };
 
 export default FooterContainer;
